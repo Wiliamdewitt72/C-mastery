@@ -1,0 +1,16 @@
+# macOS junk
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Archivos compilados genéricos
+*.o
+*.out
+*.exe
+
+# Directorio de salida de mdBook (donde se compila el libro)
+book/
+
+# Nota: Como nuestros binarios de C no tienen extensión (ej. 'main' en vez de 'main.exe'),
+# la mejor práctica es siempre correr 'make clean' antes de hacer 'make git-all' 
+# para no subir los ejecutables al repositorio.
